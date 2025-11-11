@@ -3273,6 +3273,7 @@ __metadata:
     next: "npm:16.0.1"
     react: "npm:19.2.0"
     react-dom: "npm:19.2.0"
+    remixicon: "npm:^4.7.0"
     tailwind-merge: "npm:^3.4.0"
     tailwindcss: "npm:^4"
     tw-animate-css: "npm:^1.4.0"
@@ -3660,6 +3661,13 @@ __metadata:
     gopd: "npm:^1.2.0"
     set-function-name: "npm:^2.0.2"
   checksum: 10c0/83b88e6115b4af1c537f8dabf5c3744032cb875d63bc05c288b1b8c0ef37cbe55353f95d8ca817e8843806e3e150b118bc624e4279b24b4776b4198232735a77
+  languageName: node
+  linkType: hard
+
+"remixicon@npm:^4.7.0":
+  version: 4.7.0
+  resolution: "remixicon@npm:4.7.0"
+  checksum: 10c0/0a57ded987c5c8bde779a66f39159e9af5f7e69e955ca869addde04aea91b0a4fbb397644bb508a6bc1650ea1ece35901332de8daf2816ea089df85d6cd8013b
   languageName: node
   linkType: hard
 
