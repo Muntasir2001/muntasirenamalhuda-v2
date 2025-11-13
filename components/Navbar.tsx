@@ -19,8 +19,12 @@ const Navbar = () => {
           </Link>
 
           <div className="flex space-x-8 text-white font-medium justify-self-center mx-auto">
-            <Link href="/">About Me</Link>
-            <Link href="/">Projects</Link>
+            <Link className="hover:cursor-pointer" href="/">
+              About Me
+            </Link>
+            <Link className="hover:cursor-pointer" href="/">
+              Projects
+            </Link>
           </div>
 
           <Button className="font-bold">Contact Me</Button>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
@@ -18,9 +20,15 @@ const Hero = () => {
             Contact Me
           </Button>
           <div className="flex items-center gap-2">
-            <i className="ri-linkedin-box-fill text-white text-3xl"></i>
-            <i className="ri-instagram-line text-white text-3xl"></i>
-            <i className="ri-github-fill text-white text-3xl"></i>
+            <Link href="/">
+              <i className="ri-linkedin-box-fill text-white text-3xl"></i>
+            </Link>
+            <Link href="/">
+              <i className="ri-instagram-line text-white text-3xl"></i>
+            </Link>
+            <Link href="/">
+              <i className="ri-github-fill text-white text-3xl"></i>
+            </Link>
           </div>
         </div>
       </div>
