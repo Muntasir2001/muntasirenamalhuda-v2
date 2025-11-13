@@ -1,6 +1,6 @@
 const AdobeXdIcon = ({
-  width,
-  height,
+  width = 24,
+  height = 24,
 }: {
   width?: number | string;
   height?: number | string;

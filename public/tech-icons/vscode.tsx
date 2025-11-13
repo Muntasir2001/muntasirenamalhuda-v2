@@ -1,6 +1,6 @@
 const VscodeIcon = ({
-  width,
-  height,
+  width = 20,
+  height = 20,
 }: {
   width?: number | string;
   height?: number | string;

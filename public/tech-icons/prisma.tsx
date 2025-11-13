@@ -1,6 +1,6 @@
 const PrismaIcon = ({
-  width,
-  height,
+  width = 20,
+  height = 24,
 }: {
   width?: number | string;
   height?: number | string;
@@ -30,4 +30,3 @@ PrismaIcon.defaultProps = {
   width: 20,
   height: 24,
 };
-

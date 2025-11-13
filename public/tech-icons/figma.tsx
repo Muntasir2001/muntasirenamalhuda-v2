@@ -1,6 +1,6 @@
 const FigmaIcon = ({
-  width,
-  height,
+  width = 16,
+  height = 25,
 }: {
   width?: number | string;
   height?: number | string;

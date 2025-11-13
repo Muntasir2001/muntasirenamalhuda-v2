@@ -1,6 +1,6 @@
 const SassIcon = ({
-  width,
-  height,
+  width = 20,
+  height = 23,
 }: {
   width?: number | string;
   height?: number | string;
@@ -28,4 +28,3 @@ SassIcon.defaultProps = {
   width: 20,
   height: 23,
 };
-

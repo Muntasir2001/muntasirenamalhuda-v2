@@ -1,6 +1,6 @@
 const NetlifyIcon = ({
-  width,
-  height,
+  width = 22,
+  height = 19,
 }: {
   width?: number | string;
   height?: number | string;

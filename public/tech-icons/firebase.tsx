@@ -1,6 +1,6 @@
 const FirebaseIcon = ({
-  width,
-  height,
+  width = 18,
+  height = 24,
 }: {
   width?: number | string;
   height?: number | string;

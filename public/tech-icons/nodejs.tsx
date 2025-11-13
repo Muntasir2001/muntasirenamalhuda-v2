@@ -1,6 +1,6 @@
 const NodejsIcon = ({
-  width,
-  height,
+  width = 24,
+  height = 26,
 }: {
   width?: number | string;
   height?: number | string;
@@ -32,4 +32,3 @@ NodejsIcon.defaultProps = {
   width: 24,
   height: 26,
 };
-

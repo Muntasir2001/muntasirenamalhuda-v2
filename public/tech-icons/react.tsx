@@ -1,6 +1,6 @@
 const ReactIcon = ({
-  width,
-  height,
+  width = 24,
+  height = 21,
 }: {
   width?: number | string;
   height?: number | string;
@@ -28,4 +28,3 @@ ReactIcon.defaultProps = {
   width: 24,
   height: 21,
 };
-

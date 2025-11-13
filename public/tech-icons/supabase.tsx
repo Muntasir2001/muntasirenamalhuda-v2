@@ -1,6 +1,6 @@
 const SupabaseIcon = ({
-  width,
-  height,
+  width = 22,
+  height = 22,
 }: {
   width?: number | string;
   height?: number | string;
@@ -61,4 +61,3 @@ SupabaseIcon.defaultProps = {
   width: 22,
   height: 22,
 };
-

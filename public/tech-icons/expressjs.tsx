@@ -1,6 +1,6 @@
 const ExpressjsIcon = ({
-  width,
-  height,
+  width = 22,
+  height = 26,
 }: {
   width?: number | string;
   height?: number | string;

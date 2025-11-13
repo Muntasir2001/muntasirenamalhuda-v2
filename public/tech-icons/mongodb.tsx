@@ -1,6 +1,6 @@
 const MongodbIcon = ({
-  width,
-  height,
+  width = 14,
+  height = 29,
 }: {
   width?: number | string;
   height?: number | string;

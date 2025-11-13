@@ -1,6 +1,6 @@
-const HtmlIcon = ({
-  width,
-  height,
+const JsIcon = ({
+  width = 25,
+  height = 25,
 }: {
   width?: number | string;
   height?: number | string;
@@ -27,9 +27,9 @@ const HtmlIcon = ({
   );
 };
 
-export default HtmlIcon;
+export default JsIcon;
 
-HtmlIcon.defaultProps = {
+JsIcon.defaultProps = {
   width: 25,
   height: 25,
 };

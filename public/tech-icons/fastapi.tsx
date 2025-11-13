@@ -1,6 +1,6 @@
 const FastapiIcon = ({
-  width,
-  height,
+  width = 21,
+  height = 21,
 }: {
   width?: number | string;
   height?: number | string;

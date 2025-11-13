@@ -1,6 +1,6 @@
 const NextjsIcon = ({
-  width,
-  height,
+  width = 21,
+  height = 21,
 }: {
   width?: number | string;
   height?: number | string;
@@ -16,7 +16,7 @@ const NextjsIcon = ({
     >
       <mask
         id="mask0_169_681"
-        style={{ maskType: 'luminance' }}
+        style={{ maskType: "luminance" }}
         maskUnits="userSpaceOnUse"
         x="0"
         y="0"
@@ -41,4 +41,3 @@ NextjsIcon.defaultProps = {
   width: 21,
   height: 21,
 };
-

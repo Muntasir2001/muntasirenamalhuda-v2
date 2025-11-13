@@ -1,6 +1,6 @@
 const VercelIcon = ({
-  width,
-  height,
+  width = 20,
+  height = 17,
 }: {
   width?: number | string;
   height?: number | string;
@@ -25,4 +25,3 @@ VercelIcon.defaultProps = {
   width: 20,
   height: 17,
 };
-

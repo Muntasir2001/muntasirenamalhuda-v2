@@ -1,6 +1,6 @@
 const StyledComponentsIcon = ({
-  width,
-  height,
+  width = 20,
+  height = 19,
 }: {
   width?: number | string;
   height?: number | string;
@@ -30,4 +30,3 @@ StyledComponentsIcon.defaultProps = {
   width: 20,
   height: 19,
 };
-

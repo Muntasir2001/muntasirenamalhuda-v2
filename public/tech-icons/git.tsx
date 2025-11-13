@@ -1,6 +1,6 @@
 const GitIcon = ({
-  width,
-  height,
+  width = 25,
+  height = 25,
 }: {
   width?: number | string;
   height?: number | string;

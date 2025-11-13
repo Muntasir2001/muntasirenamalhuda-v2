@@ -1,6 +1,6 @@
 const HtmlIcon = ({
-  width,
-  height,
+  width = 18,
+  height = 21,
 }: {
   width?: number | string;
   height?: number | string;

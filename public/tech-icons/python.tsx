@@ -1,6 +1,6 @@
 const PythonIcon = ({
-  width,
-  height,
+  width = 22,
+  height = 22,
 }: {
   width?: number | string;
   height?: number | string;
@@ -28,4 +28,3 @@ PythonIcon.defaultProps = {
   width: 22,
   height: 22,
 };
-

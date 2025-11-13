@@ -1,6 +1,6 @@
 const DjsIcon = ({
-  width,
-  height,
+  width = 28,
+  height = 28,
 }: {
   width?: number | string;
   height?: number | string;

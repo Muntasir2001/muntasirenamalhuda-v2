@@ -1,6 +1,6 @@
 const DockerIcon = ({
-  width,
-  height,
+  width = 25,
+  height = 18,
 }: {
   width?: number | string;
   height?: number | string;

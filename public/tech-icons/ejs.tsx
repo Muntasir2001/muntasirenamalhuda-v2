@@ -1,6 +1,6 @@
 const EjsIcon = ({
-  width,
-  height,
+  width = 21,
+  height = 12,
 }: {
   width?: number | string;
   height?: number | string;

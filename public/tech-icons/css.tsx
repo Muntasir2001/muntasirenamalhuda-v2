@@ -1,6 +1,6 @@
 const CssIcon = ({
-  width,
-  height,
+  width = 20,
+  height = 22,
 }: {
   width?: number | string;
   height?: number | string;
