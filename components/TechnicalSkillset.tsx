@@ -12,7 +12,8 @@ const TechnicalSkillset = ({
   return (
     <>
       <div
-        className={`flex gap-3 items-center text-${textColor} bg-[${backgroundHexColor}] px-5 py-2 rounded-sm`}
+        className={`flex gap-3 items-center px-5 py-2 rounded-sm`}
+        style={{ backgroundColor: backgroundHexColor, color: textColor }}
       >
         {children}
       </div>

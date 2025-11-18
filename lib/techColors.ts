@@ -18,4 +18,11 @@ export const backgroundColors: { [key: string]: string } = {
   djs: "#090A16",
   nodejs: "#8CC84B",
   docker: "#2396ED",
+  git: "#EE513B",
+  supabase: "#1A1A1A",
+  netlify: "#070E11",
+  adobeXd: "#272727",
+  figma: "#272727",
+  python: "#3776AB",
+  fastapi: "#00897A",
 };

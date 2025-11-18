@@ -1,6 +1,6 @@
 const SvelteIcon = ({
   width = 21,
-  height = 16,
+  height = 26,
 }: {
   width?: number | string;
   height?: number | string;

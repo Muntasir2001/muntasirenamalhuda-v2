@@ -7,6 +7,8 @@
   --color-custom-background: var(--custom-background);
   --color-white: oklch(0.9731 0 0);
   --color-html: #e44d26;
+
+  --text-sub-heading: 2.5rem;
 }
 
 @theme inline {
