@@ -1,13 +1,13 @@
 const Layout = ({
-  children,
+	children,
 }: Readonly<{
-  children: React.ReactNode;
+	children: React.ReactNode;
 }>) => {
-  return (
-    <>
-      <div className="px-[100px]">{children}</div>
-    </>
-  );
+	return (
+		<>
+			<div className="px-[100px]">{children}</div>
+		</>
+	);
 };
 
 export default Layout;

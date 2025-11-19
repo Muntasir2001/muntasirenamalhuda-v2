@@ -1,4 +1,3 @@
-import TechnicalSkillset from "./TechnicalSkillset";
 import TsIcon from "@/public/tech-icons/ts";
 import ReactIcon from "@/public/tech-icons/react";
 import NextjsIcon from "@/public/tech-icons/nextjs";
@@ -11,9 +10,6 @@ import ExpressjsIcon from "@/public/tech-icons/expressjs";
 import HtmlIcon from "@/public/tech-icons/html";
 import CssIcon from "@/public/tech-icons/css";
 import SassIcon from "@/public/tech-icons/sass";
-
-import { backgroundColors } from "@/lib/techColors";
-import Title from "./Title";
 import FirebaseIcon from "@/public/tech-icons/firebase";
 import MongodbIcon from "@/public/tech-icons/mongodb";
 import VscodeIcon from "@/public/tech-icons/vscode";
@@ -29,6 +25,10 @@ import AdobeXdIcon from "@/public/tech-icons/adobeXdSvg";
 import FigmaIcon from "@/public/tech-icons/figma";
 import PythonIcon from "@/public/tech-icons/python";
 import FastapiIcon from "@/public/tech-icons/fastapi";
+
+import TechnicalSkillset from "./TechnicalSkillset";
+import Title from "./Title";
+import { backgroundColors } from "@/lib/techColors";
 
 const TechnicalSkillsets = () => {
   return (
