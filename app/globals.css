@@ -8,7 +8,9 @@
 	--color-white: oklch(0.9731 0 0);
 	--color-html: #e44d26;
 
+	--text-heading: 3.125rem;
 	--text-sub-heading: 2.5rem;
+	--text-normal: 1.25rem;
 }
 
 @theme inline {

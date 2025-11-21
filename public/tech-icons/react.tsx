@@ -24,7 +24,7 @@ const ReactIcon = ({
 
 export default ReactIcon;
 
-ReactIcon.defaultProps = {
-	width: 24,
-	height: 21,
-};
+// ReactIcon.defaultProps = {
+// 	width: 24,
+// 	height: 21,
+// };

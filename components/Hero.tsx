@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 const Hero = () => {
 	return (
 		<>
-			<div className="py-32 h-screen">
+			<div className="py-32 h-[80vh]">
 				<h1 className="text-6xl text-white font-bold leading-20">
 					HEY! I&apos;m <span className="text-primary">Muntasir</span>
 					,
